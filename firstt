@@ -1,0 +1,38 @@
+var student=[
+    {
+        name:"hassan",
+        age:23,
+        marks:500
+    },
+     {
+        name:"ali",
+        age:23,
+        marks:400
+    },
+     {
+        name:"ahmad",
+        age:23,
+        marks:450
+    },
+     {
+        name:"asif",
+        age:23,
+        marks:550
+    },
+     {
+        name:"umair",
+        age:23,
+        marks:530
+    }
+]
+var max=student[0];
+for(var i=1;i<student.length;i++){ 
+    if(student[i].marks>max.marks){
+        max=student[i];
+    }
+
+ }
+
+ console.log(student)
+console.log(max);
+
